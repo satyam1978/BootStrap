@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStrap 7th Program</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        nav {
+            box-shadow: 0 5px 8px 0 #ccc;
+        }
+
+
+        #menu ul li:hover {
+            background-color: wheat;
+            border-radius: 5px;
+            transition: .3s;
+        }
+
+        .dropdown-menu a:hover {
+            background-color: wheat;
+            transition: .3s;
+        }
+
+        .row .col-12 {
+            padding: 2rem;
+        }
+
+        .col-12 p {
+            padding: .6rem;
+        }
+
+        .container .row .col-md-6 {
+            height: auto;
+            padding: .6rem;
+        }
+
+        .row .col-md-6 img {
+            width: 100%;
+        }
+
+        .col-md-6 .row .col-12 {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .col-md-6 .row .col-12 p {
+            justify-content: justify;
+        }
+
+        .content {
+            justify-content: justify;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .content h4 {
+            margin-left: .7rem;
+            margin-bottom: 0;
+        }
+
+        .content p {
+            margin-bottom: 0;
+        }
+
+        .content {
+            padding: .3rem;
+            margin: .3rem;
+        }
+
+        .col-2 span {
+            border: .4rem solid rgb(0, 102, 255);
+            border-radius: 50%;
+            padding: .1rem;
+            font-size: 1.8rem;
+            align-items: center;
+
+        }
+
+        .col-2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            padding-left: 2.5rem;
+        }
+
+        .contain-1 {
+            display: flex;
+            margin-top: 5rem;
+        }
+
+        #services{
+            height: 60rem;
+        }
+
+        .row .cont{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cont .col-4 {
+            height: 12rem;
+            border: none;
+            margin: 1rem;
+            padding: 2rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.651);
+            border-radius: 20px;
+            background-color: white;
+        }
+
+        .why .cont{
+            width: 70%;
+            margin: 0 auto;
+
+        }
+
+        .why .cont .col-4 {
+            height: 12rem;
+            border: none;
+            margin: 1rem;
+            padding: 2rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.651);
+            background-color: rgb(14, 13, 13);
+            color: white;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-light">
+        <div class="container">
+            <a href="#" class="navbar-brand">UDAMA</a>
+            <span class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">&#9776;</span>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="" class="nav-link active">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu ">
+                            <a href="" class="dropdown-item">Html</a>
+                            <a href="" class="dropdown-item">Css</a>
+                            <a href="" class="dropdown-item">Js</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 ">
+                <h2 class="text-center ">About Us</h2>
+                <p class="text-center text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+                    necessitatibus quaerat vel animi fugiat nam at ea voluptatum culpa quisquam?Lorem ipsum dolor sit,
+                    amet consectetur adipisicing elit. Est, officia.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-12">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium expedita temporibus qui
+                            alias, nulla aut ipsam molestiae iure. Facere eos cumque, suscipit saepe ratione
+                            dignissimos, nulla eius sed eveniet quis aperiam consequuntur!</p>
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-2">
+                                <span>&#9728;</span>
+                            </div>
+                            <div class="col-10">
+                                <div class="content">
+                                    <h4>JS</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro doloremque labore
+                                        nobis, maxime illo fugiat.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-2">
+                                <span>&#9728;</span>
+                            </div>
+                            <div class="col-10">
+                                <div class="content">
+                                    <h4>HTML</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quam
+                                        veritatis veniam. Labore, aliquam est.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-2">
+                                <span>&#9728;</span>
+                            </div>
+                            <div class="col-10">
+                                <div class="content">
+                                    <h4>CSS</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum esse quos dolorum
+                                        soluta nulla ex!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="../images/about-img.svg">
+            </div>
+        </div>
+    </div>
+
+    <div class="container contain-1">
+
+        <div class="row">
+            <div class="col-md-6">
+                <img src="../images/about-extra-1.svg">
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-12">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium expedita temporibus qui
+                            alias, nulla aut ipsam molestiae iure. Facere eos cumque, suscipit saepe ratione
+                            dignissimos, nulla eius sed eveniet quis aperiam consequuntur!</p>
+                    </div>
+                    <div class="col-12">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eum reprehenderit
+                                praesentium illo, nobis earum quis soluta a sequi dolorem ullam tenetur, porro maxime
+                                excepturi?</p>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sequi accusantium
+                                minus laborum nobis iure similique? Deserunt odit alias eaque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container contain-1">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-12">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium expedita temporibus qui
+                            alias, nulla aut ipsam molestiae iure. Facere eos cumque, suscipit saepe ratione
+                            dignissimos, nulla eius sed eveniet quis aperiam consequuntur!</p>
+                    </div>
+                    <div class="col-12">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum eum reprehenderit
+                                praesentium illo, nobis earum quis soluta a sequi dolorem ullam tenetur, porro maxime
+                                excepturi?</p>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus mollitia debitis
+                                voluptatem numquam modi sapiente impedit molestias, corporis aliquam expedita
+                                necessitatibus quo iure soluta voluptatibus.</p>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid et veritatis laudantium
+                                hic dolor sint nobis illum, alias at! Recusandae eveniet omnis aut suscipit molestias.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="../images/about-extra-2.svg">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container bg-info bg-gradient" id="services">
+        <div class="row">
+            <div class="col-12 ">
+                <h2 class="text-center text-light">Services</h2>
+                <p class="text-center text-secondary text-light">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Eum,necessitatibus quaerat vel animi fugiat nam at ea voluptatum culpa quisquam?Lorem ipsum
+                    dolor sit,amet consectetur adipisicing elit. Est, officia.</p>
+            </div>
+        </div>
+        <div class="row serv">
+            <div class="cont">
+                <div class="col-4">
+                    <h4>JS</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro doloremque labore
+                        nobis, maxime illo fugiat.</p>
+                </div>
+                <div class="col-4">
+                    <h4>JS</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro doloremque labore
+                        nobis, maxime illo fugiat.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row serv">
+            <div class="cont">
+                <div class="col-4">
+                    <h4>JS</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro doloremque labore
+                        nobis, maxime illo fugiat.</p>
+                </div>
+                <div class="col-4">
+                    <h4>JS</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro doloremque labore
+                        nobis, maxime illo fugiat.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row serv ">
+            <div class="cont">
+                <div class="col-4">
+                    <h4>JS</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro doloremque labore
+                        nobis, maxime illo fugiat.</p>
+                </div>
+                <div class="col-4">
+                    <h4>JS</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro doloremque labore
+                        nobis, maxime illo fugiat.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container bg-light bg-dark" id="services">
+        <div class="row">
+            <div class="col-12 ">
+                <h2 class="text-center text-light">Why Chhose Us?</h2>
+                <p class="text-center text-secondary text-light">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Eum,necessitatibus quaerat vel animi fugiat nam at ea voluptatum culpa quisquam?Lorem ipsum
+                    dolor sit,amet consectetur adipisicing elit. Est, officia.</p>
+            </div>
+        </div>
+        <div class="row why">
+            <div class="cont">
+                <div class="col-4">
+                    <h4>JS</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro doloremque labore
+                        nobis, maxime illo fugiat.</p>
+                </div>
+                <div class="col-4">
+                    <h4>JS</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro doloremque labore
+                        nobis, maxime illo fugiat.</p>
+                </div>
+                <div class="col-4">
+                    <h4>JS</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro doloremque labore
+                        nobis, maxime illo fugiat.</p>
+                </div>
+                
+            </div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
